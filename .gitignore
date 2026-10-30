@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+.venv-1/
+.venv-2/
+venv/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Credenciais Streamlit
+.streamlit/secrets*.toml
+
+# Chaves e credenciais
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
