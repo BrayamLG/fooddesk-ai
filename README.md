@@ -77,14 +77,26 @@ Dashboard e histórico
 
 ```text
 fooddesk-ai/
+├── .github/
+│   └── workflows/
+│       └── tests.yml
+├── .streamlit/
+│   ├── config.toml
+│   └── secrets.toml.example
+├── tests/
+│   ├── test_security_utils.py
+│   └── test_workflow_engine.py
 ├── app.py
 ├── demo_engine.py
 ├── workflow_engine.py
 ├── security_utils.py
 ├── requirements.txt
+├── requirements-dev.txt
+├── runtime.txt
+├── .gitignore
 ├── README.md
-└── tests/
-    └── test_workflow_engine.py
+├── SECURITY.md
+└── PUBLISHING.md
 ```
 
 ## Executar localmente
@@ -131,7 +143,7 @@ A versão demonstrativa não exige chave de API.
 Execute:
 
 ```bash
-python -m unittest discover -s tests -v
+python -m pytest -v
 ```
 
 ## Privacidade e segurança
