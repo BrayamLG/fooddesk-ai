@@ -2,6 +2,14 @@
 
 **Inteligência aplicada a operações e experiência do cliente.**
 
+## 🚀 Demonstração online
+
+**[Acesse o FoodDesk AI](https://fooddesk-ai.streamlit.app/)**
+
+Experimente a plataforma demonstrativa diretamente pelo navegador.
+
+[Ver código-fonte no GitHub](https://github.com/BrayamLG/fooddesk-ai)
+
 O FoodDesk AI é um projeto experimental de portfólio que demonstra como conceitos de inteligência artificial, automação e análise de dados podem ser aplicados a uma operação de atendimento e experiência do cliente.
 
 Desenvolvido em Python com Streamlit, o projeto utiliza um fluxo demonstrativo executado localmente, sem chamadas a modelos de IA, APIs externas ou webhooks.
